@@ -40,5 +40,5 @@
 5. Lets make our symlink!! `ln -s symlink/needed.txt mysymlink.txt` so here we are creating the symlink for our needed.txt called mysymlink.text
 6. Now if we run `cat mysymlink.txt` we can see that it is outputting what we had in the original text file. How useful
 
-### What are the uses for a symlink?
+#### What are the uses for a symlink?
 1. Symbolic links are used all the time to link libraries and make sure files are in consistent places without moving or copying the original. Links are often used to “store” multiple copies of the same file in different places but still reference to one file.
